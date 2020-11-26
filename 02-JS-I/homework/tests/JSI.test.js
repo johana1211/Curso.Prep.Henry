@@ -72,6 +72,8 @@ describe('devolverString(str)', function() {
   });
 });
 
+
+
 describe('suma(x, y)', function() {
   it('Deberia devolver la suma de los dos argumentos', function() {
     expect(suma(5, 5)).toBe(10);
@@ -174,7 +176,7 @@ describe('elevarAlCubo(num)', function() {
     expect(elevarAlCubo(3)).toBe(27);
     expect(elevarAlCubo(0)).toBe(0);
     expect(elevarAlCubo(-5)).toBe(-125);
-  });
+  });7
 });
 
 describe('elevar(num, exponent)', function() {

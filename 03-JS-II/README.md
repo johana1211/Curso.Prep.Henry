@@ -49,7 +49,7 @@ Una última cosa a tener en cuenta, ni `undefined` ni` null` son cadenas, están
 En estas lecciones hemos hablado sobre los valores booleanos, `true` y` false`. Cuando se usa una declaración `if` u otra declaración que espera un valor booleano (como `!`, _NOT_), y la expresión dada no es un valor booleano, Javascript hará algo llamado "coerción de tipo" y transformará lo que sea que se le entregue a un valor booleano. Esto se conoce como "truthy" y "falsey". Cada tipo de datos tiene una veracidad. Acá hay unos ejemplos:
 
 ```javascript
-// Datos que son forzados a verdaderos/"true"
+// Datos que 2son forzados a verdaderos/"true"
 true
 1
 ' '
