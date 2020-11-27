@@ -24,7 +24,7 @@ function agregarMetodoPrototype(Constructor) {
   // Tu código:
  
   Constructor.prototype.saludar = function() {
-    return "Hello Word!"
+    return toString("Hello Word!"); 
   }
 
 }
