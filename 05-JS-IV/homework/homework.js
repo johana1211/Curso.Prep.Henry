@@ -152,10 +152,10 @@ function pasarUsuarioAPremium(usuarios) {
   // Tu código:
    
   for(var i = 0; i < usuarios.length; i++){
-     usuarios[i].esPremium = true
-       return true;
+     usuarios[i].esPremium = true; 
+       
     }
-
+    return usuarios; 
   }
 
 
@@ -170,11 +170,11 @@ function sumarLikesDeUsuario(usuario) {
  
 
 var suma = 0;  
- for(var i = 0; i < posts.length; i++){
+ for(var i = 0; i < usuario.posts.length; i++){
     suma += usuario.posts[i].likes
  }
 
- return (suma); 
+ return suma; 
 }
      
 
